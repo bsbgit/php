@@ -28,6 +28,13 @@
 echo "<div id='ch6'>";
 echo "<br><br><<<---------------------------- START CHAPTER 6 LEARNING ---------------------------->>><br><br>";
 
+$paper[] = "Copier";
+$paper[] = "Inkjet";
+$paper[] = "Laser";
+$paper[] = "Photo";
+
+print_r($paper);
+
 
 
 echo "<br><<<---------------------------- END CHAPTER 6 LEARNING ---------------------------->>>";
