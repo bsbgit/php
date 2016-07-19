@@ -34,6 +34,19 @@ $paper[] = "Laser";
 $paper[] = "Photo";
 
 print_r($paper);
+echo "<br>";
+
+for($j = 0; $j < 4; ++$j) {
+	echo "$j: $paper[$j]<br>";
+}
+echo "<br>";
+
+$p2 = array('copier'=>"Copier and Multipurpose", 'inkjet'=>"Inkjet Printer", 'laser'=>"Laser Printer",
+		'photo'=>"Photo Printer Paper");
+foreach($p2 as $p) {
+	echo"Val in array: $p<br>";
+}
+
 
 
 
